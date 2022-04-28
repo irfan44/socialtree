@@ -7,7 +7,7 @@ type Props = {
 const LinkButton = ({ href, icon, text }: Props) => {
   return (
     <a className="block" href={href} target="_blank">
-      <div className="p-3 bg-neutral-900 rounded-lg text-white flex items-center justify-center">
+      <div className="p-3 bg-neutral-900 hover:bg-black rounded-lg text-white flex items-center justify-center">
         <span className="mr-2">{icon}</span>
         {text}
       </div>
