@@ -49,7 +49,7 @@ const App = () => {
       <div className="container max-w-2xl mx-auto pb-5 pt-10 px-5 text-center space-y-6">
         <img
           className="rounded-full mx-auto"
-          src="/src/assets/irfan.jpeg"
+          src="/irfan.jpeg"
           alt="Irfan"
           height={150}
           width={150}
