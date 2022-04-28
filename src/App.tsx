@@ -72,7 +72,7 @@ const App = () => {
           <p className="text-sm">With 😻 using React & Tailwind CSS</p>
         </div>
         <div className="flex justify-center text-sm">
-          <a href="https://github.com/irfan44/socialtree">
+          <a href="https://github.com/irfan44/socialtree" target="_blank">
             <div className="flex items-center">
               <span className="mr-2">
                 <FaGithub />
