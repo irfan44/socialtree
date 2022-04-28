@@ -58,7 +58,7 @@ const App = () => {
         </div>
         <div>
           <h4>Irfan Nurghiffari Muhajir</h4>
-          <p>Front-end engineer | Software engineering student</p>
+          <p>Frontend Engineer | Software Engineering Student</p>
         </div>
         <div className="space-y-4">
           {links.map((link) => {
