@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400 700;
+    font-display: swap;
+    src: url("/src/fonts/Inter-VariableFont.ttf") format("truetype");
+  }
+
+  h1,
+  .h1 {
+    @apply font-sans text-4xl font-bold md:text-5xl tracking-tighter leading-tight text-black;
+  }
+
+  h2,
+  .h2 {
+    @apply font-sans text-2xl font-bold md:text-4xl tracking-tighter leading-tight text-black;
+  }
+
+  h3,
+  .h3 {
+    @apply font-sans text-xl font-bold md:text-3xl tracking-tighter leading-tight text-black;
+  }
+
+  h4,
+  .h4 {
+    @apply font-sans text-lg font-bold md:text-2xl text-black;
+  }
+
+  h5,
+  .h5 {
+    @apply font-sans text-base font-bold md:text-lg tracking-tighter leading-tight text-black;
+  }
+
+  body,
+  .p {
+    @apply font-sans text-base text-neutral-900;
+  }
+
+  body {
+    @apply bg-neutral-50;
+  }
+}
