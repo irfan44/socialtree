@@ -4,11 +4,11 @@
 
 @layer base {
   @font-face {
-    font-family: "Inter";
+    font-family: "Lexend Deca";
     font-style: normal;
     font-weight: 400 700;
     font-display: swap;
-    src: url("/src/fonts/Inter-VariableFont.ttf") format("truetype");
+    src: url("/src/fonts/LexendDeca-VariableFont.ttf") format("truetype");
   }
 
   h1,
@@ -43,5 +43,9 @@
 
   body {
     @apply bg-neutral-50;
+  }
+
+  a {
+    @apply font-sans;
   }
 }

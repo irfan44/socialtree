@@ -13,7 +13,7 @@ import Links from "types/links";
 const App = () => {
   const links: Links[] = [
     {
-      href: "https://irfannm.me",
+      href: "https://www.irfannm.xyz",
       text: "Visit my website and blog",
       icon: <CgWebsite />,
     },
@@ -28,7 +28,7 @@ const App = () => {
       icon: <FaLinkedinIn />,
     },
     {
-      href: "https://www.instagram.com/irfan_nm44",
+      href: "https://www.instagram.com/irfannm44",
       text: "Follow me on Instagram",
       icon: <FaInstagram />,
     },
@@ -69,11 +69,11 @@ const App = () => {
         </div>
       </div>
       <div className="text-center mt-6">
-        <div>
-          <p className="text-sm">© 2022 Irfan Nurghiffari Muhajir</p>
-          <p className="text-sm">With 😻 using React & Tailwind CSS</p>
+        <div className="text-sm">
+          <p>© 2022 Irfan Nurghiffari Muhajir</p>
+          <p>With 😻 using React & Tailwind CSS</p>
         </div>
-        <div className="flex justify-center text-sm">
+        <div className="flex justify-center text-sm mt-4">
           <a href="https://github.com/irfan44/socialtree" target="_blank">
             <div className="flex items-center">
               <span className="mr-2">
